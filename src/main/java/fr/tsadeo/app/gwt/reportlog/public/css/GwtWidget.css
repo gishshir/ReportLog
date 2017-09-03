@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+    color: #4C1B1B;
+}
+
+
+.gwt-DialogBox {
+	width: 800px;
+}
+.gwt-DialogBox .dialogMiddleCenter {
+	padding: 3px;
+	background: beige;
+}
+.gwt-TextBox {
+    font-size: 9pt;
+}
+
+.gwt-TabPanelBottom {
+    background-color: lightblue;
+    border-color: #8D2F00;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.gwt-TabBar {
+    background: none repeat scroll 0 0 #8D2F00;
+    padding-top: 6px;
+}
+
+.gwt-ToggleButton-up,
+.gwt-ToggleButton-up-hovering,
+.gwt-ToggleButton-up-disabled, 
+.gwt-ToggleButton-down, 
+.gwt-ToggleButton-down-hovering, 
+.gwt-ToggleButton-down-disabled {
+    margin: 0px;
+    text-decoration: none;
+    border-radius: 2px;
+    background: transparent  repeat-x scroll 0px -27px;
+}
+
+
+
+

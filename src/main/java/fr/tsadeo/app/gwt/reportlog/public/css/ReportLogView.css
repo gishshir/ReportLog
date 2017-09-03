@@ -1,0 +1,321 @@
+
+.cursorInProgress {
+	cursor: wait;
+}
+
+.tabPanelPrinc {
+	width: 1000px;
+}
+
+.reportLogView .panel {
+	border-style: solid;
+	border-color:  #4C1B1B;	
+	border-radius: 30px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.levelSelected {
+	border-color: aqua;
+}
+
+.level{
+width: 35px;
+border-width: thick;
+}
+
+.applyParamButton{
+padding: 6px;
+margin: 10px;
+text-align: center;
+background-color: aquamarine;
+width: 150px;
+}
+
+
+.buttonAccessKey.hidden{
+	visibility: hidden;
+}
+.buttonAccessKey.dialog{
+	background-color: lightblue;
+}
+.buttonAccessKey  {
+	width: 10px;
+height: 6px;
+background-color: beige;
+position: relative;
+top: 10px;
+left: -10px;
+padding: 2px 2px 1px 3px;
+text-align: center;
+border-radius: 5px 5px 5px 5px;
+}
+.reportLogButton:hover {
+background: #f1e767; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f1e767 0%, #feb645 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #f1e767 0%,#feb645 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #f1e767 0%,#feb645 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #f1e767 0%,#feb645 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.reportLogButton {
+background: #f1e767; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1e767 0%, #feb645 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1e767 0%,#feb645 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1e767 0%,#feb645 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f1e767 0%,#feb645 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-9 */
+    border-radius: 4px 4px 4px 4px;
+    color: black;
+}
+.keyValueWidget {
+
+}
+.attributToDisplay {
+	padding-left: 30px;
+}
+.textBoxToDisplay {
+	width: 200px;
+	background-color: orange;
+	color: darkBlue;
+	height: 12px;
+}
+.textBoxToFind {
+	width: 200px;
+	background-color: darkblue;
+	color: beige;
+	height: 12px;
+}
+.textBoxUnselected {
+	background-color: grey;
+}
+.textBoxNumberLine {
+	width: 50px;
+	height: 20px;
+}
+.valuenok {
+	background-color: darkred;
+	color: black
+}
+.valueDisabled {
+	background-color: beige;
+	color: grey;
+}
+.wrongValue {
+	color: darkred;
+}
+.valueok {
+	background-color: darkblue;
+	color: beige;
+}
+.remove {
+	background-color: red;
+}
+.regex {
+	background-color: black;
+}
+.regexAndremove {
+	background-color: black;
+	color: red;
+}
+.attributToDisplayPanel{
+	
+}
+.filterPanel {
+	
+}
+
+.linePanel {
+	
+}
+
+.imgAnimation {
+    background-image: url("../images/animation.gif");
+    background-repeat: no-repeat;
+    background-position: 50%;    
+}
+.imgAnchor {
+    background-image: url("../images/Anchor.png");
+    background-repeat: no-repeat;	
+    width: 20px;
+	height: 18px;
+}
+.imgDetail {
+	background: url("../images/detail.png");
+    background-repeat: no-repeat;	
+    width: 16px;
+	height: 16px;
+	background-position: 50%;
+}
+.imgErase {
+	background: url("../images/Erase.png");
+    background-repeat: no-repeat;	
+    width: 16px;
+	height: 16px;
+	background-position: 50%;
+}
+
+.textAreaLogSource {
+    background-color: darkblue;
+    color: beige;
+    height: 250px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.cutarmed {
+	background-color: grey;
+}
+.textAreaLogTarget.nofilter {
+  background-color: #284E1A;
+}
+.textAreaLogTarget {
+    background-color: darkblue;
+    color: orange;
+    height: 250px;
+    width: 1200px;
+    padding: 5px;
+    overflow-y: auto;
+    resize: both;
+}
+.log {
+	margin-top: 1px;
+	padding-left: 20px;
+}
+.error {
+	color: red;
+}
+
+.imgError {
+   background: url("../images/error.png");
+   background-repeat: no-repeat;
+   background-position: 1px;
+}
+
+.imgPick {
+   background: url("../images/bluepin.png");
+   background-repeat: no-repeat;
+   background-position: 1px;
+}
+.imgCut {
+   background: url("../images/Cut.png");
+   background-repeat: no-repeat;
+   background-position: 1px;
+   background-color: yellowgreen;
+}
+.warning {
+	color: yellow;
+}
+.imgWarn {
+   background: url("../images/warn.png");
+   background-repeat: no-repeat;
+   background-position: 1px;
+}
+.info {
+	color: lightBlue;
+}
+.debug {
+	color: beige;
+}
+.trace {
+	color: grey;
+}
+
+.panelViewKVFilter {
+	border-style: solid;
+	border-width: thin;
+	border-color:  #4C1B1B;	
+	width: 100%;
+}
+
+.panelKeyValue {	
+	max-height: 300px;
+    width: 450px;
+    overflow-y: auto;
+}
+.panelViewKVTitle {
+    color: beige;
+    font-size: medium;
+    font-weight: bold;	
+    width: 100%;
+    margin-bottom: 5px;
+}
+.titleActif {
+	background-color: #046380;
+}
+.titleUnactif {
+	background-color: #B4AF91;
+}
+
+.panelViewKVList {
+	width: 280px;
+	max-height: 400px;
+    overflow-y: auto;	
+}
+
+.viewKVSelected {
+  border-style: dotted;
+  border-width: thin;
+}
+.viewKVActif {
+	 border-color: #046380;
+}
+.viewKVUnactif {
+	 border-color:  #B4AF91;
+}
+.orange-background {
+	background-color: orange;
+}
+.yellow-background {
+	background-color: yellow;
+}
+.panelDescription {
+	width: 90%;
+    background-color: #FFF168;
+    border-color: blue;
+    border-style: double;
+    border-width: medium;
+    color: #375D81;
+    font-family: 'Marck Script', cursive;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.panelDisplay {
+}
+.panelDisplayKeyList {
+	max-height: 450px;
+    overflow-y: auto;	
+}
+.panelDisplayKey {
+	padding-left: 10px;
+	border-style: double;
+    margin-bottom: 5px;
+}
+.marginBottom3 {
+	margin-bottom: 3px;
+}
+.margin10 {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.marginLeft20 {
+	margin-left: 20px;
+}
+
+.margin-auto {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hidden {
+	display: none;
+}
+
+
